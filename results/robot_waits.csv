@@ -1,0 +1,9 @@
+cycle,belt_start_to_grip_s,grip_to_release_s,extra_wait_s,robot_waited
+1,1.465,6.686,0.021,False
+2,1.387,6.697,-0.057,False
+3,1.417,6.655,-0.028,False
+4,1.434,6.617,-0.01,False
+5,1.497,6.63,0.053,False
+6,1.455,6.72,0.01,False
+7,7.427,6.644,5.983,True
+8,1.378,6.62,-0.066,False

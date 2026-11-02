@@ -1,0 +1,15 @@
+signal,start_s,end_s,dur_s,normal_s,extra_s,slow,stop_in_step_s,cause,station,dictionary text,times_normal,plc,gap_at_start_s,gap_at_end_s,could_be_gap
+BECK_VG.Q7_compressorON,74.239,84.032,9.793,7.772,2.021,True,0.0,slow by itself,Robot,VG.Q7_compressorON,1.26,Beckhoff,0.0,0.0,False
+BECK_WH.Q4_horBelt,109.014,113.486,4.472,1.731,2.741,True,0.0,slow by itself,Warehouse,WH.Q4_horBelt,2.583,Beckhoff,0.0,0.0,False
+BECK_WH.Q3_horRack,252.422,266.028,13.606,3.103,10.503,True,8.896,paused by a stop,Warehouse,WH.Q3_horRack,4.385,Beckhoff,0.0,0.0,False
+SIE_A1.7,254.147,272.172,18.025,9.223,8.802,True,8.896,paused by a stop,Drilling station,Suction on/off (output),1.954,Siemens,0.0,0.0,False
+BECK_WH.Q4_horBelt,283.443,287.807,4.364,1.731,2.633,True,0.0,slow by itself,Warehouse,WH.Q4_horBelt,2.521,Beckhoff,0.0,0.0,False
+BECK_WH.Q1_beltForward,291.278,299.076,7.798,0.856,6.942,True,0.0,slow by itself,Warehouse,WH.Q1_beltForward,9.11,Beckhoff,0.0,0.0,False
+BECK_WH.Q2_beltBackward,314.841,321.634,6.793,0.57,6.223,True,0.0,slow by itself,Warehouse,WH.Q2_beltBackward,11.918,Beckhoff,0.0,0.0,False
+BECK_WH.Q1_beltForward,350.796,360.419,9.623,0.856,8.767,True,0.0,slow by itself,Warehouse,WH.Q1_beltForward,11.242,Beckhoff,0.0,0.0,False
+SIE_A0.7,363.1,371.086,7.986,5.773,2.213,True,0.0,slow by itself,Drilling station,conveyor on,1.383,Siemens,0.0,0.0,False
+SIE_A1.0,385.069,390.139,5.07,0.988,4.082,True,0.078,slow by itself,Drilling station,drill on (output),5.132,Siemens,0.0,0.0,False
+BECK_WH.Q7_cantForw,387.435,400.865,13.43,3.064,10.366,True,10.377,paused by a stop,Warehouse,WH.Q7_cantForw,4.383,Beckhoff,0.0,0.0,False
+BECK_WH.Q3_horRack,452.992,463.282,10.29,3.103,7.187,True,7.602,paused by a stop,Warehouse,WH.Q3_horRack,3.316,Beckhoff,0.0,0.0,False
+BECK_WH.Q8_cantBack,468.454,476.485,8.031,3.114,4.917,True,4.904,paused by a stop,Warehouse,WH.Q8_cantBack,2.579,Beckhoff,0.0,0.0,False
+BECK_WH.Q4_horBelt,478.141,482.427,4.286,1.731,2.555,True,0.0,slow by itself,Warehouse,WH.Q4_horBelt,2.476,Beckhoff,0.0,0.0,False

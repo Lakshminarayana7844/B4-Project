@@ -1,0 +1,11 @@
+cluster,start_ms,dwell_ms,rows,start_s,end_s,censored,stop_overlap_s,slow_overlap_s,match
+0,142205.0,30090.0,354,142.205,172.295,,0.0,0.0,no rule-based event (review window)
+0,196690.0,28220.0,332,196.69,224.91,,0.0,0.0,no rule-based event (review window)
+5,316455.0,24820.0,292,316.455,341.275,,0.0,5.179,contains a slow step
+5,460785.0,24735.0,291,460.785,485.52,,4.904,14.814,contains a stop
+3,61030.0,23800.0,280,61.03,84.83,,0.0,9.793,contains a slow step
+3,224910.0,21335.0,251,224.91,246.245,,0.0,0.0,no rule-based event (review window)
+5,400605.0,18530.0,218,400.605,419.135,,0.0,0.26,contains a slow step
+7,253640.0,18105.0,213,253.64,271.745,,8.896,29.986,contains a stop
+0,45135.0,15895.0,187,45.135,61.03,,0.0,0.0,no rule-based event (review window)
+0,84830.0,15725.0,185,84.83,100.555,,0.0,0.0,no rule-based event (review window)

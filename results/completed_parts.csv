@@ -1,0 +1,11 @@
+time_s,colour,gap_s,stop_in_gap_s,oven_delay_in_gap_s,long_gap
+29.897,blue,,0.0,0.0,False
+58.312,red,28.415,0.0,0.0,False
+130.005,red,71.693,0.0,16.375,True
+156.147,blue,26.142,0.0,0.0,False
+209.933,blue,53.786,0.0,0.379,False
+283.851,white,73.918,8.896,14.316,True
+329.561,red,45.71,0.0,0.259,False
+372.261,white,42.7,0.0,26.827,False
+408.679,white,36.418,10.377,0.0,False
+480.692,white,72.013,12.506,1.764,True
