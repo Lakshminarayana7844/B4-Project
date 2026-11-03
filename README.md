@@ -25,7 +25,7 @@ between stations?
 |------|--------|--------------|
 | 1 | `part1_data_preparation/` | Load both logs, join them directly on a fixed 85 ms grid (last recorded value, never a future one), keep the source and age of every value, check sampling, gaps and the both-PLC view of the stops |
 | 2 | `part2_rule_based_detection/` | Steps, stops and cycles measured on the original timestamps; the L1-L4 hypothesis tests |
-| 3 | `part3_clustering_model/` | k-means over the joined table (approach by teammate Bala, adapted to this grid); long episodes are review windows, not faults |
+| 3 | `part3_clustering_model/` | k-means over the joined table; long episodes are review windows, not faults |
 | 4 | `part4_evaluation/` | Compare both methods, conclusions per hypothesis, final Excel report |
 
 Each part is one notebook. **Run them in order** (1 -> 2 -> 3 -> 4): later parts
