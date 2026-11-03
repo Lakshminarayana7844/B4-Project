@@ -19,16 +19,15 @@ between stations?
 
 (Data-gap checks are kept as data-quality checks in Part 1, not as a hypothesis.)
 
-## The project in four parts
+## The project in three parts
 
 | Part | Folder | What it does |
 |------|--------|--------------|
 | 1 | `part1_data_preparation/` | Load both logs, join them directly on a fixed 85 ms grid (last recorded value, never a future one), keep the source and age of every value, check sampling, gaps and the both-PLC view of the stops |
 | 2 | `part2_rule_based_detection/` | Steps, stops and cycles measured on the original timestamps; the L1-L4 hypothesis tests |
 | 3 | `part3_clustering_model/` | k-means over the joined table; long episodes are review windows, not faults |
-| 4 | `part4_evaluation/` | Compare both methods, conclusions per hypothesis, final Excel report |
 
-Each part is one notebook. **Run them in order** (1 -> 2 -> 3 -> 4): later parts
+Each part is one notebook. **Run them in order** (1 -> 2 -> 3): later parts
 read the tables the earlier parts wrote into `results/`.
 
 ## How to run
@@ -47,8 +46,7 @@ data/processed/   the joined 85 ms table (written by Part 1)
 part1_data_preparation/    01_data_preparation.ipynb
 part2_rule_based_detection/ 02_rule_based_detection.ipynb
 part3_clustering_model/    03_clustering_model.ipynb
-part4_evaluation/          04_evaluation.ipynb
-results/          all result tables, figures/ and performance_loss_findings.xlsx
+results/          all result tables and figures/
 ```
 
 ## First results
@@ -61,7 +59,6 @@ results/          all result tables, figures/ and performance_loss_findings.xlsx
   for the slow warehouse belt.
 - The oven starts 14 to 27 s after the robot's release in 3 of 9 transfers
   (cause unknown - no "ready" signal in the dictionary).
-- Clustering agrees: 5 of its 10 longest episodes overlap rule-based events.
 
 ## Assumptions and limits
 
@@ -72,6 +69,5 @@ results/          all result tables, figures/ and performance_loss_findings.xlsx
 - Cluster scores are weak (silhouette 0.15): clusters are coarse operating
   states, not confirmed events.
 - The two PLC clocks are assumed to agree; this was never checked.
-- No labelled ground truth: the findings rest on two different methods
-  agreeing, not on proven accuracy.
+- No labelled ground truth: the accuracy is not proven.
 - The recording is 8:25 although the documents say 10 minutes.
