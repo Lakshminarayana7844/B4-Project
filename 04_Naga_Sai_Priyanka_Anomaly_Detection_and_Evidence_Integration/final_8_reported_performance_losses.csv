@@ -1,0 +1,9 @@
+event,timestamp_start_utc,elapsed_seconds,timestamp_end_utc,length_seconds,flagged_rows,both_share,evidence,confidence,inside_stop_indicator
+E3,18:22:57.450,102.51,18:22:58.895,1.445,13,1.0,H3,Higher,No
+E4,18:23:18.190,123.25,18:23:24.055,5.865,35,0.875,H3,Higher,No
+E6,18:25:22.715,247.775,18:25:25.180,2.465,30,1.0,H3,Higher,No
+E7,18:25:31.980,257.04,18:25:38.695,6.715,57,0.95,"H1 (2x: WH.Q3_horRack, A1.7), H3",Higher,Yes (Light curtain: 18:25:29.940 - 18:25:38.865)
+E10,18:27:20.100,365.16,18:27:25.965,5.865,70,1.0,H1 (A0.7),Higher,No (Clean operational loss)
+E11,18:27:48.575,393.635,18:27:50.530,1.955,24,0.0,H1 (WH.Q7_cantForw),Lower,Yes (Light curtain: 18:27:44.580 - 18:27:55.035)
+E12,18:28:23.935,428.995,18:28:30.395,6.46,69,1.0,H3,Higher,No
+E13,18:28:49.690,454.75,18:28:53.600,3.91,47,1.0,"H1 (WH.Q3_horRack), H3",Higher,Yes (Light curtain: 18:28:47.735 - 18:28:55.300)

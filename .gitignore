@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Office temporary lock files
+~.pptx
+~.docx
+~.xlsx
+
+# Python & Jupyter
+__pycache__/
+*.py[cod]
+*.class
+.ipynb_checkpoints/
