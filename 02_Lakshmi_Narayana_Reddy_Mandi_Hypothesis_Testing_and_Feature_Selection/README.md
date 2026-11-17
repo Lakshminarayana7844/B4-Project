@@ -12,7 +12,7 @@ My part of the B4 mini-project. We look for performance losses in two PLC logs (
 - **03 feature_selection.ipynb** - audits the 195 process signals, removes 43 constant or duplicated ones, one-hot encodes the state-code columns and scales the 5 numeric ones. The result is a clean 5,945 x 172 matrix used by the anomaly detection.
 - **b4_h3_gaps.csv** - the measured gaps between sorting pusher starts behind H3.
 - **feature_exclusion_review.txt** - the 43 excluded signals with the reason for each.
-- **B4_Technical_Report.pdf** - the full team report.
+- **B4_Technical_Report.docx** (also as PDF) - the full team report.
 - **B4_Presentation.pptx** - our presentation of the whole project.
 
 All flagged steps and events are candidates to investigate, not proven faults.
